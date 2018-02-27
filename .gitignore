@@ -1,5 +1,7 @@
 
 *.config
 *.h
-.qm-virt/*
+qm-virt/*
+qm-virt\*
 qm-virt/Include/pydtrace.d
+
