@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Sign up for a free account</h2>
+  <p class="lead">Select below the type of account you want to create</p>
+  <a href="{% url 'quizzer_signup' %}" class="btn btn-quizzers btn-lg" role="button">I'm a Quizzer</a>
+  <a href="{% url 'master_signup' %}" class="btn btn-master btn-lg" role="button">I'm a Quiz Master</a>
+{% endblock %}

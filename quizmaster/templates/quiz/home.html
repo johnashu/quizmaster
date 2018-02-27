@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Welcome to Quizmaster! <span class="icon-emo-happy"></span></h2>
+  <p class="lead">
+    If you already have an account, go ahead and <a href="{% url 'login' %}">log in</a>. If you are new to Quizmaster, get started
+    by creating a <a href="{% url 'quizzer_signup' %}">Quizzer account</a> or a <a href="{% url 'master_signup' %}">Quizmaster account</a>.
+  </p>
+  <hr>
+  <h3>What's this about?</h3>
+  <p>
+    This Django application is an example of a Quiz game.
+    In this application, users can sign up as a quizzer or a master. Quizmasters can create quizzes and quizzers can partake in quizzes.
+    based on their interests.
+  </p>
+ 
+{% endblock %}
